@@ -1,8 +1,11 @@
 body {
-  background-color: burlywood;
+  background-color: rgb(173, 129, 215);
 }
 #menu {
-  width: 300px;
+  background-color: burlywood;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
 h1,
 h2,
