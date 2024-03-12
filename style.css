@@ -2,7 +2,8 @@ body {
   background-color: rgb(173, 129, 215);
 }
 .menu {
-  background-color: burlywood;
+  /* background-color: burlywood; */
+  background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
   width: 80%;
   margin-left: auto;
   margin-right: auto;
