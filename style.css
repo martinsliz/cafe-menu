@@ -1,14 +1,26 @@
 body {
-  /* background-color: rgb(173, 129, 215); */
+  font-family: sans-serif;
   background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
 }
+
 .menu {
   background-color: burlywood;
   width: 80%;
+  max-width: 500px;
   margin-left: auto;
   margin-right: auto;
   padding: 20px;
 }
+
+h1,
+h2 {
+  font-family: Impact, serif;
+}
+
+.established {
+  font-style: italic;
+}
+
 h1,
 h2,
 p {
@@ -20,6 +32,7 @@ p {
   text-align: left;
   width: 75%;
 }
+
 .price {
   text-align: right;
   width: 24%;
