@@ -55,6 +55,32 @@ hr {
 
 .item p {
   display: inline-block;
+  font-size: 18px;
   margin-top: 5px;
   margin-bottom: 5px;
+}
+
+.bottom-line {
+  margin-top: 25px;
+}
+
+/* FOOTER */
+footer {
+  font-size: 14px;
+}
+
+a {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: brown;
+}
+
+a:active {
+  color: brown;
 }
