@@ -1,6 +1,7 @@
 body {
-  font-family: sans-serif;
   background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+  font-family: sans-serif;
+  padding: 20px;
 }
 
 .menu {
@@ -35,6 +36,12 @@ p {
   text-align: center;
 }
 
+hr {
+  height: 2px;
+  background-color: brown;
+  border-color: brown;
+}
+
 .flavor,
 .dessert {
   text-align: left;
@@ -44,9 +51,10 @@ p {
 .price {
   text-align: right;
   width: 24%;
-  /* border: 1px solid black; */
 }
 
 .item p {
   display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
